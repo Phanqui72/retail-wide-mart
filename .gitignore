@@ -1,0 +1,22 @@
+# Environment variables
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Data outputs (ignore all data except .gitkeep)
+data/raw/*/*
+!data/raw/*/.gitkeep
+data/export/*
+data/crawl_status.json
+output/
+*.json
+*.csv
+*.xlsx
+!package.json
