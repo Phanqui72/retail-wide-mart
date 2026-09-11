@@ -14,7 +14,9 @@ venv/
 data/raw/*/*
 !data/raw/*/.gitkeep
 data/export/*
+!data/export/.gitkeep
 data/crawl_status.json
+.checkpoint*
 output/
 *.json
 *.csv
